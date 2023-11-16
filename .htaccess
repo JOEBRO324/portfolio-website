@@ -1,2 +1,0 @@
-RewriteEngine On
-RewriteRule ^sublink$ /sublink.html [L]
