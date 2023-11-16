@@ -1,7 +1,9 @@
 .my-body{
-  background-color: #5C5C5C
+  background-color: #5C5C5C;
 }
 
 .my-h1{
-  color: #FFFFF 
+  color: #FFFFF;
+  background-color: #5C5C5C;
+  text-align: center;
 }
