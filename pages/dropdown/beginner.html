@@ -43,8 +43,12 @@
     <h1 class="my-h1">Beginner Projects/Progress</h1>
     <p class="my-p1">These are just some beginner projects that I will be working on besides creating this webpage to get me back into coding.</p>
     <py-script>
-      pyscript.write("<p style='color: red;'>Hello, world!</p>")
+      pyscript.write("Hello, world!")
+      document.getElementById("my-p-tag").innerHTML = pyscript.output;
     </py-script>
+
+    <p id="my-p-tag"></p>
+
 
     
     
