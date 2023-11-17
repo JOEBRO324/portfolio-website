@@ -42,9 +42,21 @@
   
     <h1 class="my-h1">Beginner Projects/Progress</h1>
     <p class="my-p1">These are just some beginner projects that I will be working on besides creating this webpage to get me back into coding.</p>
-    <mpy-script>
-      pyscript.write("Hello, world!")
-    </mpy-script>
+    <py-config>
+                plugins = [
+                  "https://pyscript.net/latest/plugins/python/py_tutor.py"
+                ]
+            </py-config>
+
+            <section class="pyscript">
+                Hello world! <br>
+                This is the current date and time, as computed by Python:
+                <py-script>
+                    from datetime import datetime
+                    now = datetime.now()
+                    display(now.strftime("%m/%d/%Y, %H:%M:%S"))
+                </py-script>
+            </section>
 
 
     
